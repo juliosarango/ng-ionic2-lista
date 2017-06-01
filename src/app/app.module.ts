@@ -19,6 +19,7 @@ import { ListaDeseosService } from '../app/servicios/lista-deseos.service';
 
 //pipes
 import { PlaceHolderPipe } from '../app/pipes/placeholder.pipe';
+import { PendientesPipe } from '../app/pipes/pendientes.pipe';
 
 
 @NgModule({
@@ -29,7 +30,9 @@ import { PlaceHolderPipe } from '../app/pipes/placeholder.pipe';
     TerminadosComponent,
     AgregarComponent,
     DetalleComponent,
-    PlaceHolderPipe
+    PlaceHolderPipe,
+    PendientesPipe
+
   ],
   imports: [
     BrowserModule,
